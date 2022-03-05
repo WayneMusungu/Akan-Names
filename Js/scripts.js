@@ -11,3 +11,8 @@
 //  DD - is the Day of the month 
 
 //  mod - is the modulus function ( % )
+
+var dob = document.getElementById("dob");
+var male = document.getElementById("male");
+var female = document.getElementById("female");
+dobArray = dob.value.split("-")
