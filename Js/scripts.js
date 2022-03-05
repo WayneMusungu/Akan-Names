@@ -12,6 +12,8 @@
 
 //  mod - is the modulus function ( % )
 
+// [1900 12 31]- Our calendar year example
+
 
 function click(){
     var dob = document.getElementById("dob");
@@ -19,4 +21,22 @@ function click(){
     var female = document.getElementById("female");
     dobArray = dob.value.split("-")
     
+    console.log(dobArray)
+
+    var CC = dobArray[0][0] + dobArray[0][1]
+    console.log(CC)
+
+    var YY = dobArray[0][2] + dobArray[0][3]
+    console.log(YY)
+
+    var MM =dobArray[1]
+    console.log[MM]
+
+    var DD = dobArray[2]
+    console.log(DD)
+
+    var d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
+     d=parseInt(d)
+     console.log(d)
+
 }
