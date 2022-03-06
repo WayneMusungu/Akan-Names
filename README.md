@@ -3,7 +3,7 @@
 
 - The web application lets you input your birthday and then outputs your Akan name which is naming system from Ghana. The naming is based on gender and the day in which you were born.
 
-
+![AKAN NAMES LANDING PAGE](/home/wayne/Documents/moringa-school-projects/Akan-Names/akanhomepage.jpg)
 
 ## Technologies Used
 
