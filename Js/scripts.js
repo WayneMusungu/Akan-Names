@@ -44,10 +44,9 @@ function done(){
   
     if(akanMale[d] === undefined|| akanFemale[d] === undefined){
         alert("You entered the wrong date")
-    }
-
-
-    if(male.checked === true){
+    }else{
+        
+        if(male.checked === true){
         console.log(akanMale[d])
         alert("Your Akan Name is " + akanMale[d])
     }
@@ -58,6 +57,13 @@ function done(){
         alert("Your Akan Name is " + akanFemale[d])
         
     }
+
+    }
+
+
+
+
+    
 
     
 
