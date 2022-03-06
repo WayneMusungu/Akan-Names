@@ -1,7 +1,7 @@
 # AKAN NAMES
 # Wayne Musungu
 
-- The web application lets you input your birthday and then outputs your Akan name which is naming system from Ghana. The naming is based on gender and the day in which you were born.
+- The web application lets you input your birthday and then outputs your Akan name which is a naming system from Ghana. The naming is based on gender and the day in which you were born.
 
 ![AKAN NAMES LANDING PAGE](akanhomepage.jpg)
 
