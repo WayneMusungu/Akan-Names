@@ -33,8 +33,13 @@ function done(){
     var DD = dobArray[2]
     console.log(DD)
 
+    CC = parseInt(CC);
+    YY = parseInt(YY);
+    MM = parseInt(MM);
+    DD = parseInt(DD);
+
     var d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
-    d=parseInt(d)
+    d=parseInt(d.toFixed(0))
     console.log(d)
     
     var akanMale = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
