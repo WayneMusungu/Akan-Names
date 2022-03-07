@@ -33,12 +33,12 @@ function done(){
     var DD = dobArray[2]
     console.log(DD)
 
-    CC = parseInt(CC);
-    YY = parseInt(YY);
-    MM = parseInt(MM);
-    DD = parseInt(DD);
+    var cc = parseInt(CC);
+    var yy = parseInt(YY);
+    var mm = parseInt(MM);
+    var dd = parseInt(DD);
 
-    var d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
+    var d = ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7
     d=parseInt(d)
     console.log(d)
     
@@ -46,6 +46,7 @@ function done(){
     var akanFemale = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
     var dayOfTheWeek =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
+    
   
     if(akanMale[d] === undefined|| akanFemale[d] === undefined){
         alert("You entered the wrong date")
