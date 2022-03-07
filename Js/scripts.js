@@ -47,6 +47,7 @@ function done(){
     var dayOfTheWeek =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
     
+    
   
     if(akanMale[d] === undefined|| akanFemale[d] === undefined){
         alert("You entered the wrong date")
