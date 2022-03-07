@@ -44,12 +44,8 @@ function done(){
     
     var akanMale = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
     var akanFemale = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
-    var dayOfTheWeek =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-    
-
-    
-  
+      
     
     if(akanMale[d] === undefined|| akanFemale[d] === undefined){
         alert("You entered the wrong date")
